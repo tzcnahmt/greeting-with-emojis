@@ -1,4 +1,4 @@
-import { FooterContainer } from './Footer.styled';
+import { FooterContainer } from './Footer.style';
 export default function Footer() {
   return (
     <>

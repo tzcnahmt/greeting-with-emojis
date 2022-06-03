@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 
-export default function LastEmoji({
+export default function GreetingEmoji({
   emoji,
   description,
   positionX,

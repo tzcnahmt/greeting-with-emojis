@@ -1,22 +1,11 @@
-import { useState } from 'react';
-import './App.css';
 import Cursor from './components/Cursor/Cursor';
 import Footer from './components/Footer/Footer';
+import useCoords from './hooks/use-coordinate.hook';
+
+import './App.css';
 
 export default function App() {
-  const [coords, setCoords] = useState({
-    x: 0,
-    y: 0,
-  });
-
-  const handleCursorPosition = (event) => {
-    setCoords({
-      x: event.clientX,
-      y: event.clientY,
-    });
-  };
-
-  window.addEventListener('mousemove', handleCursorPosition);
+  const coords = useCoords();
 
   return (
     <>
