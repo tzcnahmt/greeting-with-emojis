@@ -1,5 +1,9 @@
 import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
+import {
+  GreetingEmojiChild,
+  GreetingEmojiContainer,
+} from './GreetingEmoji.style';
 
 export default function GreetingEmoji({
   emoji,
@@ -33,13 +37,15 @@ export default function GreetingEmoji({
 
   return (
     <>
-      <div
+      <GreetingEmojiContainer
         ref={emojiRef}
         className='last-emoji'
         style={{ transform: `translate(${positionX}px, ${positionY}px)` }}
       >
-        <p data-description={description}>{emoji}</p>
-      </div>
+        <GreetingEmojiChild description={description}>
+          {emoji}
+        </GreetingEmojiChild>
+      </GreetingEmojiContainer>
     </>
   );
 }
