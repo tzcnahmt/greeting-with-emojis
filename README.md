@@ -1,4 +1,5 @@
-Highly inspired by [https://theothersideoftruth.com/](https://theothersideoftruth.com/)
+# Original Artwork
+Inspired by [https://h-u-g.co.jp/](https://h-u-g.co.jp/)
 
 # Getting Started with Create React App
 
