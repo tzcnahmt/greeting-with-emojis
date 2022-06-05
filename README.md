@@ -1,6 +1,9 @@
 # Original Artwork
 Inspired by [https://h-u-g.co.jp/](https://h-u-g.co.jp/)
 
+**Live Preview**  [[https://h-u-g.co.jp/](https://greetwithemoji.netlify.app)]([https://h-u-g.co.jp/](https://greetwithemoji.netlify.app))
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
